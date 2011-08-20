@@ -35,12 +35,14 @@ section.main {
       margin: 0;
       display: inline-block;
       border-left: 2px solid #333;
-      a {
+      a, span {
         font-size: 12px;
         display: block;
         padding: 0 1em;
         text-decoration: none;
         text-transform: uppercase;
+      }
+      a {
         color: gray;
       }
     }

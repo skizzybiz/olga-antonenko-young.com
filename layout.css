@@ -26,12 +26,13 @@ section.main nav ul {
     margin: 0;
     display: inline-block;
     border-left: 2px solid #333; }
-    section.main nav ul li a {
+    section.main nav ul li a, section.main nav ul li span {
       font-size: 12px;
       display: block;
       padding: 0 1em;
       text-decoration: none;
-      text-transform: uppercase;
+      text-transform: uppercase; }
+    section.main nav ul li a {
       color: gray; }
   section.main nav ul li:first-child {
     border-left: none; }
