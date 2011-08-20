@@ -50,4 +50,22 @@ section.main {
       border-left: none;
     }
   }
+  
+  section.content {
+    margin: 3em 0;
+    
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+}
+
+footer {
+  margin-top: 2em;
+  border-top: 1px solid gray;
+  padding: 1em 0;
+  color: gray;
+  * {
+    font-size: 0.8em;
+  }
 }
